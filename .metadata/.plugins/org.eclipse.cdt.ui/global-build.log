@@ -1,0 +1,30 @@
+21:13:05 **** Build of configuration Debug for project Working ****
+make all 
+Building file: ../Ch10Exercise1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Ch10Exercise1.d" -MT"Ch10Exercise1.d" -o "Ch10Exercise1.o" "../Ch10Exercise1.cpp"
+Finished building: ../Ch10Exercise1.cpp
+ 
+Building target: Working
+Invoking: GCC C++ Linker
+g++  -o "Working"  ./Ch10Exercise1.o   
+Finished building target: Working
+ 
+21:13:11 **** Incremental Build of configuration Debug for project Working ****
+make all 
+make: Nothing to be done for `all'.
+21:15:06 **** Incremental Build of configuration Debug for project Working ****
+make all 
+make: Nothing to be done for `all'.
+21:36:38 **** Clean-only build of configuration Debug for project Working ****
+make clean 
+rm -rf  ./Ch10Exercise1.o  ./Ch10Exercise1.d  Working
+ 
+21:36:52 **** Clean-only build of configuration Debug for project Working ****
+make clean 
+rm -rf  ./Ch10Exercise1.o  ./Ch10Exercise1.d  Working
+ 
+21:38:08 **** Clean-only build of configuration Debug for project Working ****
+make clean 
+rm -rf  ./Ch10Exercise1.o  ./Ch10Exercise1.d  Working
+ 

@@ -1,0 +1,7 @@
+21:38:08 **** Clean-only build of configuration Debug for project Working ****
+make clean 
+rm -rf  ./Ch10Exercise1.o  ./Ch10Exercise1.d  Working
+ 
+
+21:38:08 Build Finished (took 205ms)
+
