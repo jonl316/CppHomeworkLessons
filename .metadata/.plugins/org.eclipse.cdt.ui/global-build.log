@@ -28,3 +28,18 @@ rm -rf  ./Ch10Exercise1.o  ./Ch10Exercise1.d  Working
 make clean 
 rm -rf  ./Ch10Exercise1.o  ./Ch10Exercise1.d  Working
  
+22:09:29 **** Build of configuration Debug for project Working ****
+make all 
+Building file: ../Ch10Exercise2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Ch10Exercise2.d" -MT"Ch10Exercise2.d" -o "Ch10Exercise2.o" "../Ch10Exercise2.cpp"
+Finished building: ../Ch10Exercise2.cpp
+ 
+Building target: Working
+Invoking: GCC C++ Linker
+g++  -o "Working"  ./Ch10Exercise2.o   
+Finished building target: Working
+ 
+22:09:50 **** Incremental Build of configuration Debug for project Working ****
+make all 
+make: Nothing to be done for `all'.
