@@ -1,6 +1,7 @@
-22:09:50 **** Incremental Build of configuration Debug for project Working ****
-make all 
-make: Nothing to be done for `all'.
+22:15:12 **** Clean-only build of configuration Debug for project Working ****
+make clean 
+rm -rf  ./Ch10Exercise2.o  ./Ch10Exercise2.d  Working
+ 
 
-22:09:50 Build Finished (took 100ms)
+22:15:12 Build Finished (took 135ms)
 
